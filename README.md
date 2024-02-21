@@ -5,7 +5,7 @@ Bulk de-authorize Discord apps from your account.
 Discords application management interface is not very good to say the least. It's a pain to de-authorize a lot of apps at once. This tool aims to make that process easier.
 
 ## How?
-Very simple! Just run `npx dunauthorizer` and follow the instructions.
+Very simple! Just run `npx dunauthorizer` and follow the instructions. (Note: You need Node.js installed for this to work!)
 
 ## I ain't giving you my token!
 This is unfortunately a necessary evil. The token is used to authenticate with Discord's API. The token is not stored anywhere, and is only used to make requests to Discord's API. If you're still not comfortable with this, you can always inspect the source code and/or compile the tool yourself.
