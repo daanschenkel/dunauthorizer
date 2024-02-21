@@ -14,7 +14,7 @@ This is unfortunately a necessary evil. The token is used to authenticate with D
 1. Open Discord in your browser.
 2. Press `F12` to open the developer console.
 3. Go to the `Console` tab.
-4 Paste `(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()` and press `Enter`.
+4. Paste `(webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()` and press `Enter`.
 5. Copy the token that is printed to the console.
 > **Note:** Do not share your token with anyone! It can be used to access your account.
 
